@@ -58,6 +58,7 @@ li {
 .float-left {
   float: left;
 }
-#description {
+
+#description::first-letter {
   text-transform: capitalize;
 }
